@@ -1,10 +1,9 @@
 import React, { useEffect, useRef } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
 
-  const constainerRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const boxRef = useRef<HTMLDivElement>(null);
 
   const isClicked = useRef<boolean>(false);
@@ -22,10 +21,10 @@ function App() {
   })
 
   useEffect(() => {
-    if (!boxRef.current || !constainerRef.current) return;
+    if (!boxRef.current || !containerRef.current) return;
 
     const box = boxRef.current;
-    const container = constainerRef.current;
+    const container = containerRef.current;
 
 
     const onMouseDown = (e: MouseEvent) => {
@@ -67,7 +66,7 @@ function App() {
 
   return (
     <main>
-      <div ref={constainerRef} className="container">
+      <div ref={containerRef} className="container">
         <div ref={boxRef} className="box"></div>
       </div>
     </main>
