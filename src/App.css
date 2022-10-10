@@ -22,3 +22,25 @@ main {
   width: 60px;
   cursor: pointer;
 }
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: blueviolet;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.small-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
