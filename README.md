@@ -1,8 +1,11 @@
-# Getting Started with Create React App
+# Building draggable Component with React and TypeScript
+## Watch the video on |YouTube](https://www.youtube.com/watch?v=ZcDWyVj6-uU)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### If you like the content, give us a star, click like and subscribe.
+
+
+### Available Scripts
 
 In the project directory, you can run:
 
